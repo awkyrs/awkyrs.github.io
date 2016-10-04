@@ -1,0 +1,34 @@
+---
+layout: default
+title: Submit
+permalink: /submit/
+---
+
+<style>
+textarea[name='message'] { font-size: 14px; font-family: "Lato"; }
+input[type='submit'] { font-size: 14px; font-family: "Lato"; }
+</style>
+
+<h3>Ask the experts at Awkwardly Yours!</h3>
+
+<form action="//formspree.io/jerco@sas.upenn.com"
+      method="POST">
+    <textarea rows="8" cols="63" name="message" placeholder="Your awkward situation here"></textarea><br>
+    <input type="hidden" name="_subject" value="New submission!" />
+    <input type="hidden" name="_next" value="/submit/thanks/" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_cc" value="hannahva@sas.upenn.edu" />
+    <input type="submit" value="Send">
+
+</form>
+
+<p>&nbsp;</p>
+
+<font size="2">
+<p>N.B. We welcome all awkward, complicated, or funny (not-haha-funny) situations, provided that:</p>
+<ul>
+  <li>All details are true, as far as you remember and are comfortable</li>
+  <li>We conduct light editing of submissions (e.g. all pronouns gender-neutral) for publication</li>
+</ul>
+<p>All advice (and humor) is our own. All submissions are treated with the utmost anonymity and/or confidentiality.</p>
+</font>
